@@ -208,6 +208,43 @@ progress[value]:::-webkit-progress-bar{
     justify-content: center;
     align-items: center;
 }
+@media(max-width: 768px ){
+    nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        margin: 10px 0;
+    }
+    #home{
+        text-align: center;
+    }
+    #bio{
+        flex-direction: column;
+    }
+    #bio article{
+        margin-bottom: 30px;
+    }
+    #bio img{
+        margin: 40px;
+    }
+    
+    #portfolio div{
+        flex-direction: column;
+        height: 600px;
+    }
+    #portfolio div article{
+        flex-grow: 1;
+        width: 100%;
+        margin: 10px;
+
+    }
+    #skills-container{
+        flex-direction: column;
+    }
+    #skills div{
+        margin: 10px 0;
+    }
+}
 /* 
 logo text
 nav link

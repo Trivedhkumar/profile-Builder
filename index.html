@@ -40,7 +40,7 @@
           caught my attention,with them we can literally control the content in websites which was amazing to my eyes then.
           So I stared diving deep into the full stack development and learned many things and looking for oppurtunity to showcase my skills .
         </p>
-        <a href="#" class="link-btn">Download My Resume</a>
+        <a href="./files/Trivedh Kumar Resume.pdf" download="Trivedh Kumar Resume" class="link-btn">Download My Resume</a>
       </article>
     </section>
     <section id="portfolio">
@@ -85,6 +85,8 @@
               <li><progress max="100" value = "80"></progress></li>
               <li>JS</li>
               <li><progress max="100" value = "68"></progress></li>
+              <li>Python</li> 
+              <li><progress max="100" value = "68"></progress></li>
               <li>GIT</li>
               <li><progress max="100" value = "70"></progress></li>
             </ul>
@@ -109,11 +111,12 @@
     </section>
     <footer id="contact">
       <h3>CONTACT</h3>
-      <form action="#">
-        <input  class="input" type="text" placeholder="ENTER YOUR NAME" />
-        <input class="input" type="text" placeholder="ENTER YOUR EMAIL" />
-        <input class="input" type="text" placeholder="ENTER YOUR MESSAGE" />
-        <input  type="button" class="link-btn" value="Send Message" />
+      
+      <form action="mailto:trivedhj@gmail.com" method="post" enctype="text/plain">
+        <input  class="input" type="text" name="name" placeholder="ENTER YOUR NAME" required />
+        <input class="input" type="email" name="email" placeholder="ENTER YOUR EMAIL"  required/>
+        <input class="input" type="text" name="message" placeholder="ENTER YOUR MESSAGE"  required/>
+        <input  type="submit" class="link-btn" value="Send Message" />
       </form>
     </footer>
   </body>
